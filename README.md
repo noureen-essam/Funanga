@@ -64,3 +64,10 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## to run the project 
+
+1. Composer install 
+2. php artisan key generate 
+3. Update .env file with database configration
+4. php artisan migrate 
+5. php artisan serve
