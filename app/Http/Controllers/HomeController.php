@@ -23,10 +23,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-
-
         $welcomeMessage='Hello User you are logged as TestUser';
-        dd($welcomeMessage);
 
         return view('home', compact('welcomeMessage'));
     }
